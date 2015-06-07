@@ -1,0 +1,20 @@
+<header>
+  <span class="logo"></span>
+  <h3>{{setting "name"}}</h3>
+</header>
+<section data-main></section>
+<footer>
+  <div>
+    The required fields are:
+    
+    <ul>
+        <li>
+            Assignee
+        </li>
+        
+        <li>
+            Order ID
+        </li>
+    </ul>
+  </div>
+</footer>
