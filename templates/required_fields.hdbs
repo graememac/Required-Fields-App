@@ -1,0 +1,10 @@
+<p>
+    The required fields are:
+</p>
+<ul>
+    {{#each required_fields}}
+            <li>
+                {{this}}
+            </li>
+    {{/each}}  
+</ul>
