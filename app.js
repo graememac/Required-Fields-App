@@ -10,10 +10,10 @@
         var required_fields_array = [];
         var ticket_fields = this.ticketFields();
         
-        // add field's name to required_fields_array if isRequired() returns true
+        // add field's label to required_fields_array if isRequired() returns true
         for (var i=0; i<ticket_fields.length; i++){
             if (ticket_fields[i].isRequired() === true){
-                required_fields_array.push(ticket_fields[i].name());
+                required_fields_array.push(ticket_fields[i].label());
             }
         }
         
